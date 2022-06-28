@@ -54,7 +54,7 @@ CREATE TABLE `users` (
 
 ```
 
-note: default port is 3001 for backend, if you change the port you need the change apiUrl from frontend config file
+note: default port is 3001 for backend, if you change the port you need to change apiUrl from frontend config file
 
 
 ### Start the frontend page with development mode or by building:
