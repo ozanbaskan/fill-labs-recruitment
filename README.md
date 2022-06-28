@@ -67,3 +67,5 @@ or
 The application is ready to go with basic CRUD functionality and poor design :)
 
 ### Here is a peek:
+
+![Front Page!]("https://github.com/ozanbaskan/fill-labs-recruitment/blob/main/userManagement/demo.png")
