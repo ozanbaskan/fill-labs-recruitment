@@ -1,0 +1,92 @@
+table {
+  display: table;
+}
+
+.header {
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.user-table-container {
+  width: 100%;
+}
+
+.user-table-header {
+  font-weight: 600;
+}
+
+.user-table-header .user-cell {
+  font-weight: 700;
+}
+
+.user-cell {
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.user-table {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.user-table-button-container {
+  width: 155px;
+  margin-left: calc(95% - 146px);
+  margin-top: 10px;
+}
+
+.user-cell {
+  border: 0.5px solid black;
+}
+
+.user-table-button {
+  margin-right: 5px;
+}
+
+.popup-form-outer-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-form-inner-container {
+  opacity: 1 !important;
+  background-color: whitesmoke;
+  min-height: 600px;
+  min-width: 600px;
+  max-width: 50%;
+  max-height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 101;
+}
+
+.popup-form-inner-container label {
+  display: inline-block;
+  width: 60px;
+  text-align: left;
+}
+
+.popup-form-inner-container input {
+  margin-bottom: 10px;
+}
+
+.popup-form-inner-container button {
+  margin-left: 5px;
+  float: right;
+}

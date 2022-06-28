@@ -7,12 +7,14 @@ import (
 
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/rs/cors"
 )
 
 func main() {
 	r := mux.NewRouter()
-	routes.RegisterUser(r)
+	routes.RootHandler(r)
 	http.Handle("/", r)
-	log.Fatal(http.ListenAndServe("localhost:3000", r))
+	handler := cors.AllowAll().Handler(r)
+	log.Fatal(http.ListenAndServe("localhost:3001", handler))
 
 }
