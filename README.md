@@ -39,6 +39,7 @@ You can set up a mysql server with docker and create necessary tables
 
 ```sql
 create database users;
+use users;
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(256) DEFAULT NULL,
