@@ -6,18 +6,18 @@ import (
 )
 
 func main() {
-	// example string
+	// example string array
 	var stringArray []string = []string{"asdsad", "wqewqe", "qwqaaaaa", "aads", "aaqwewq", "aax"}
 
 	// unsorted string array
 	fmt.Println(stringArray)
 	stringArray = mergeSort(stringArray)
 
-	// sort string array
+	// sorted string array
 	fmt.Println(stringArray)
 }
 
-// create a function for custom comparison of string in our sort algorithm
+// create a function for custom comparison of strings in our sort algorithm
 // compare the counts of char "a" in strings, if equal compare the lengths
 // preprocessing the string array and turning the string array a tuple array with 2 integers
 // number of char "a" and string length respectively would decrease the space complexity greatly for large input
